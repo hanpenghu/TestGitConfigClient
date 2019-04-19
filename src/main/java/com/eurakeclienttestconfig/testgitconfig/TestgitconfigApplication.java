@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-//自动感知变量更新
+//自动感知变量更新,需要手动post    localhost:8882/refresh
 @RefreshScope
 public class TestgitconfigApplication {
 
